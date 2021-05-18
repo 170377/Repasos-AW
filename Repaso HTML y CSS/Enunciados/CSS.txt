@@ -1,0 +1,17 @@
+Repaso 2. CSS Simple
+
+Sobre el ejercicio anterior, cread una hoja de estilos CSS que se aplique a todos los ficheros que lo componían:
+
+index.html, lista.html y tabla.html
+
+En esa hoja añadid los siguientes estilos:
+
+    Cambiar el color de fondo del body.
+    Cambiar la fuente de los elementos de lista.
+    Cambiad el color de letra de los enlaces
+    Quitad el subrayado de los enlaces.
+    Añadid a los enlaces un color de fondo y un espaciado interior de 2 pixeles.
+    Aplicad a todos los td y a todos los th (en la misma regla CSS) un borde de línea contínua de un píxel de ancho y diferente al negro.
+    Aplicad a la tabla un borde de estilo doble de 4 píxeles de ancho de un color diferente al negro.
+    Haced que los bordes adyacentes se muestren en uno solo con la propiedad border-collapse en la regla del selector table.
+    Al pasar por encima de cualquier celda de la tabla, su color de fondo debe pasar a gris. Esto se hace con la pseudoclase :hover.

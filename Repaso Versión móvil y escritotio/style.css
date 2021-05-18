@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+}
+    @media (max-width: 500px) {
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            background-color: khaki;
+        }
+        header {
+            border-style: none;
+            border-bottom: solid;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 130%;
+            text-align: left;
+            height: 50px;
+            position: absolute;
+        }
+        main {
+            overflow-y: scroll;
+            height: calc(100vh - 50px - 50px);
+            border-style: none;
+        }
+        main>h3 {
+            font-size: 110%;
+            height: 70px;
+        }
+        main>section {
+            border-style: solid;
+            border-width: 2px;
+            background-color: white;
+        }
+        main>section>h3 {
+            background-color: white;
+        }
+        main>section>p {
+            background-color: white;
+            height: auto;
+            text-align: left;
+        }
+        nav {
+            border-style: none;
+            border-top: solid;
+            border-width: 2px;
+            text-align: center;
+            height: 50px;
+        }
+        a {
+            border-style: solid;
+            background-color: khaki;
+            border-width: 2px;
+            border-radius: 8px;
+            align-content: center;
+        }
+        footer{
+            display: none;
+        }
+    }
+    @media(min-width: 1000px) {
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            background-color: lightcyan;
+        }
+        main {
+            overflow-y: scroll;
+            height: calc(100vh - 60px - 50px);
+            border-style: none;
+        }
+        main>h3{          
+            height: 40px;
+            padding-top: 10px;
+            padding-left: 30px;
+        }
+        main>section{
+            border-style: solid;
+            border-width: 1px;
+            display: flex;
+           
+            
+        }
+        nav {
+            border-style: solid;
+            border-top: 1px;
+            height: 50px;
+            text-align: center;
+            padding: 1px;
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            justify-content: space-evenly;
+        }
+        a {
+            border-style: solid;
+            background-color: lightgreen;
+            border-width: 2px;
+            border-radius: 8px;
+        }
+        header {
+            border-style: solid;
+            width: 100%;
+            text-align: center;
+            height: 50px;
+            font-size: 120%;
+            padding-top: 10px;
+            margin-top: 50px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: end;
+            height: 50px;
+            padding-top: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exámen, asd</title>
+</head>
+<style>
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside{
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100vw;
+    background-color: lightblue;
+}
+aside>div{
+    border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 10%;
+    width: 10%;
+    text-align: center;
+}
+#logo{
+    border-radius: 30px;
+}
+main{
+    margin-top: 20px;
+    background-color: lightblue;
+    width: 100vw;
+    border-style: solid;
+    border-width: 2px;
+    padding-bottom: 10px;
+}
+main>#sectionBanner{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sectionFlex>div{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+#sectionFlex>#div1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+}
+#sectionFlex>#div1>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sectionFlex>#div1>div>img{
+    height: 15%;
+    width: 15%;
+    border-style: solid;
+    border-width: 2px;
+}
+#sectionFlex>#div1>p{
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    padding: 20px;
+    height: 20%;
+}
+#sectionFlex>#div2{
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#sectionFlex>#div2>div{
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: calc(15vh / 2);
+}
+#sectionFlex>#div2>div>span{
+    border-style: solid;
+    border-width: 1px;
+    width: 100vw;
+}
+#sectionFlex>#div3{
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#sectionFlex>#div3>ul>li{
+    color: blueviolet;
+    padding: 2px;
+}
+#sectionFlex>#div4{
+    border-style: solid;
+    border-width: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+footer{
+    margin: auto;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: calc(30vh / 2);
+    width: 100vw;
+    align-items: center;
+    font-size: 150%;
+    background-color: lightblue;
+}
+footer>div{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 20px;
+}
+footer>span{
+    text-decoration: underline;
+}
+</style>
+<body>
+    <h2>Luis, Viva España joder.</h2>
+    <aside>
+        <div id="logo">Logo</div>
+        <div>Inicio</div>
+        <div>Nosotros</div>
+        <div>Servicios</div>
+        <div>Contactos</div>
+    </aside>
+    <main>
+        <section id="sectionBanner">
+            <span>
+                BANNER
+            </span>
+        </section>
+        <section id="sectionFlex">
+            <div id="div1">
+                <div>
+                <img src="./img/INTP.jpg" alt="asd1"><img src="./img/INTP.jpg" alt="asd2"><img src="./img/INTP.jpg" alt="ASD3"><img src="./img/INTP.jpg" alt="asd4">
+            </div>
+                <P>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi esse sunt, alias iure velit ullam ut libero reprehenderit nulla ducimus illo, delectus sequi. Voluptate ad soluta maxime libero vitae!
+                </P>
+            </div>
+            <div id="div2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+            <div id="div3">
+                <ul>
+                    <li>Opción 1</li>
+                    <li>Opción 2</li>
+                    <li>Opción 3</li>
+                </ul>
+            </div>
+            <div id="div4">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, necessitatibus, delectus minus reprehenderit, sed quia maxime eius repudiandae aspernatur repellat consectetur! Perspiciatis autem hic possimus quisquam atque quaerat fugiat facilis?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error consequatur recusandae esse, laudantium et inventore minus doloribus laboriosam sed quia, sequi nam soluta animi beatae id? Repellendus magnam
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>Logo</div>
+        <span>
+            INICIO NOSOTROS SERVICIOS CONTACTOS
+        </span>
+    </footer>
+</body>
+
+</html>

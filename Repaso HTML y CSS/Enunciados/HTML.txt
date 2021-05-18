@@ -1,0 +1,23 @@
+Repaso 1. Ejercicio HTML
+
+Crea una página web que incluya un fichero index.html, un fichero tabla.html y un fichero lista.html de tal manera que:
+
+En el fichero index.html se incluya un enlace a cada uno de los otros dos ficheros, podéis utilizar la organización de carpetas que queráis aunque os recomiendo que pongáis todo dentro de la misma carpeta.
+
+En el fichero index.html además se tiene que incluir una imagen, que también debe estar en la misma carpeta.
+
+En el fichero tabla.html se debe incluir una tabla en formato HTML con las siguientes condiciones:
+
+    Debe tener encabezado, cuerpo y pie de tabla
+    Debe tener celdas combinadas en horizontal y celdas combinadas en vertical.
+    Los datos no son importantes, simplemente la estructura y que el HTML esté bien formado.
+
+Bajo la tabla, poned un enlace "Volver" a index.html
+
+En el fichero lista.html se debe incluir una lista en formato HTML con las siguientes condiciones:
+
+    Debe haber una lista que incluya una sublista.
+    Los datos no son importantes y tampoco lo es el tipo de lista (viñetas o números)
+    El último elemento de la lista superior debe ser un "Volver" que sea un enlace a index.html
+
+Entregad la carpeta comprimida en la actividad.

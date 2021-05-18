@@ -1,0 +1,11 @@
+img {
+    width: 100px;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 1px;
+}

@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+body>h3{
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+table{
+    border-style: solid;
+    border-width: 1px;
+    font-size: 40px;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    
+}
+table>thead{
+    border-style: solid;
+    border-width: 1px;
+    
+}
+th{
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+}
+table>tbody{
+    border-style: solid;
+    border-width: 1px;
+}
+td{
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+}
+tfoot{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.par{
+    background-color: yellow;
+}
+.impar{
+    background-color: greenyellow;
+}
+
+/* Repaso Ventana */
+#boton1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+#ventana{
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    position: absolute;
+    top: calc(50vh / 2);
+    left: calc(20vw / 2);
+    background-color: white;
+
+}
+#ventana>div{
+    width: 100%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
